@@ -182,6 +182,7 @@ async function fetchSearchWeatherInfo(city) {
     renderWeatherInfo(data);
     loadingScreen.classList.remove("active");
     userInfoContainer.classList.add("active");
+    apiErrorContainer.classList.remove("active");
   } catch (error) {
     console.log("User - Api Fetch Error", error.message);
     loadingScreen.classList.remove("active");
