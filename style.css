@@ -255,16 +255,3 @@ h1 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
-
-@media only screen and (max-width: 600px) {
-  .parameter-container {
-    flex-direction: column;
-  }
-  .form-container {
-    flex-direction: column;
-  }
-
-  .btn {
-    margin-top: 1rem;
-  }
-}
